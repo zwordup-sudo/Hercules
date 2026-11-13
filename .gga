@@ -1,0 +1,6 @@
+PROVIDER="opencode"
+FILE_PATTERNS="*.js,*.mjs,*.cjs,*.ts,*.tsx,*.jsx,*.py,*.go,*.kt,*.java,*.cs,*.rs,*.html,*.css"
+EXCLUDE_PATTERNS="*.env,*.env.*,*.pem,*.key,*.p12,*.pfx,*.jks,*.keystore,*lock*,*.min.js"
+RULES_FILE="AGENTS.md"
+STRICT_MODE="true"
+TIMEOUT="120"

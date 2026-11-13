@@ -1,0 +1,16 @@
+# Salidas de compilación y cachés locales
+.gradle/
+build/
+.kotlin/
+local.properties
+
+# Distribución de Gradle descargada (binarios de terceros)
+/gradle-8.9/
+/wrapper/
+
+# El Wrapper SÍ se conserva en Git (comprobar con git check-ignore):
+# gradlew, gradlew.bat, gradle/wrapper/gradle-wrapper.properties y
+# gradle/wrapper/gradle-wrapper.jar. No añadir patrones que los excluyan.
+
+# APKs entregados: se conservan en disco, no se versionan
+*.apk
