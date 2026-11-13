@@ -1,3 +1,11 @@
+# Publicación GitHub v1.21 (2026-11-12)
+
+- Repositorio **privado** `zwordup-sudo/Hercules` (`https://github.com/zwordup-sudo/Hercules`), rama principal `master` (también rama por defecto), commit **`9e5818592a988cdd95e036bb1c60fa53a022ea63`** y etiqueta anotada **`v1.21`** apuntando a ese mismo commit. Verificado por API: `private=true`, rama y etiqueta en GitHub; sin APK en la raíz remota.
+- Publicado con la credencial de Git Credential Manager ya existente para `github.com` (usuario `zwordup-sudo`). `gh` no estaba instalado; se usó una copia portable en temporal solo para diagnóstico, sin cambiar configuración del sistema, OpenCode, Engram ni GGA.
+- Antes del commit se auditó la copia local probada (`versionCode 22` / `1.21`): 94 archivos (código, pruebas, esquemas Room 10–12, Gradle Wrapper, AGENTS/MEMORY/CORRECCIONES/VALIDACION, `tools/` y `design/`). Sin coincidencias de secretos/credenciales, sin keystores y sin historial previo (primer commit).
+- Excluidos por `.gitignore` y no subidos: `*.apk` de la raíz, `build/`, `.gradle/`, `.kotlin/`, `local.properties`, `gradle-8.9/` y `wrapper/`. No se creó release pública ni se cambió la app o sus mejoras pendientes.
+- Mejoras del panel lateral quedan para otra versión, según indicación de Rafa.
+
 # Hito v1.21 — Panel lateral de descanso (2026-11-12)
 
 ## Revisión y APK verificados en Windows
